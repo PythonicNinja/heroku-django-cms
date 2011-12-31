@@ -1,4 +1,4 @@
-Do you want to use Django-cms on Heroku but don't know where to start? All you need to do is follow these 13 easy steps, they will get you on your way.
+Do you want to use Django-cms on Heroku but don't know where to start? All you need to do is follow these 13 easy steps, and they will get you on your way.
 
 
 1. Create a place to store your project
@@ -39,7 +39,7 @@ Do you want to use Django-cms on Heroku but don't know where to start? All you n
 
 11. Sync your database and create your admin account.
 
-     $ heroku run python mycms/manage.py syncdb
+     $ heroku run python mycms/manage.py syncdb --all
 
 12. Run your database migrations.
     
