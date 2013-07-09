@@ -124,3 +124,8 @@ INSTALLED_APPS = (
     'sekizai',
     'gunicorn',
 )
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': True,
+}
